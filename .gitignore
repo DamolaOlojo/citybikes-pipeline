@@ -39,3 +39,5 @@ logs/
 # Database
 *.db
 *.sqlitedata/
+data/processed/
+data/quality_reports/
