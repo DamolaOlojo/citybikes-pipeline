@@ -38,4 +38,4 @@ logs/
 
 # Database
 *.db
-*.sqlite
+*.sqlitedata/

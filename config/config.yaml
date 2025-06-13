@@ -1,0 +1,16 @@
+# API Configuration
+citybikes_api:
+  networks_url: "https://api.citybik.es/v2/networks"
+  base_url: "https://api.citybik.es/v2/networks/{network_id}"
+  rate_limit: 1000  # requests per hour
+
+# AWS Configuration (we'll add this later)
+aws:
+  region: "us-east-1"
+  bucket_name: "your-citybikes-bucket"  # You'll need to create this
+
+# Database Configuration (we'll add this later)
+database:
+  host: "localhost"
+  port: 5432
+  name: "citybikes_db"
